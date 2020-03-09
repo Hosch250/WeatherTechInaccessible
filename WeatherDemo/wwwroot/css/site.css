@@ -58,3 +58,11 @@ body {
     height: 50px;
     background-color: gray;
 }
+
+.low-temp {
+    color: blue;
+}
+
+.high-temp {
+    color: #EE0000;
+}
