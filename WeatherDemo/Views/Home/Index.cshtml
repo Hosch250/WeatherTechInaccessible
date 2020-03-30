@@ -7,7 +7,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Wed Jan 1, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/sn.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/sn.png" style="height: 100px; object-fit: contain" />
             <div>Snow</div>
             <div class="low-temp">30 °F</div>
         </div>
@@ -15,7 +15,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Sat Jan 4, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/fzra.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/fzra.png" style="height: 100px; object-fit: contain" />
             <div>Freezing rain</div>
             <div class="high-temp">32 °F</div>
         </div>
@@ -23,7 +23,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Fri Jan 3, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/shra.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/shra.png" style="height: 100px; object-fit: contain" />
             <div>Rain</div>
             <div class="low-temp">39 °F</div>
         </div>
@@ -31,7 +31,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Tue Jan 7, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/fg.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/fg.png" style="height: 100px; object-fit: contain" />
             <div>Fog</div>
             <div>20% chance rain</div>
             <div class="high-temp">47 °F</div>
@@ -40,7 +40,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Thur Jan 2, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/sct.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/sct.png" style="height: 100px; object-fit: contain" />
             <div>Sunny</div>
             <div>50% chance clouds</div>
             <div class="low-temp">55 °F</div>
@@ -49,7 +49,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Sun Jan 5, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/scttsra.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/scttsra.png" style="height: 100px; object-fit: contain" />
             <div>50% chance t-storms</div>
             <div class="high-temp">42 °F</div>
         </div>
@@ -57,7 +57,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Mon Jan 6, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/ovc.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/ovc.png" style="height: 100px; object-fit: contain" />
             <div>Overcast</div>
             <div>70% chance rain</div>
             <div class="low-temp">45 °F</div>
@@ -66,7 +66,7 @@
     <div class="item weather-item">
         <div style="text-align: center">
             <div style="font-size: 18px">Wed Jan 8, 2020</div>
-            <img src="https://forecast.weather.gov/newimages/large/few.png" alt="" style="height: 100px; object-fit: contain" />
+            <img src="https://forecast.weather.gov/newimages/large/few.png" style="height: 100px; object-fit: contain" />
             <div>Sunny</div>
             <div class="high-temp">52 °F</div>
         </div>
@@ -75,41 +75,39 @@
 
 <div style="font-weight: bold; font-size: 24px">Submit Report</div>
 <div>
-    <form>
-        <label>Name</label>
-        <input class="form-control" type="text" />
+    <label>Name</label>
+    <input class="form-control" type="text" />
 
-        <label>Date</label>
-        <input class="form-control" style="padding: 0 5px" type="date" />
+    <label>Date</label>
+    <input class="form-control" style="padding: 0 5px" type="date" />
 
-        <label>Precipitation</label>
-        <div class="radio">
-            <label><input type="radio" name="prec" /> None</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="prec" /> Rain</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="prec" /> Snow</label>
-        </div>
+    <label>Precipitation</label>
+    <div class="radio">
+        <label><input type="radio" name="prec" /> None</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="prec" /> Rain</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="prec" /> Snow</label>
+    </div>
 
-        <label>Visibility</label>
-        <div class="radio">
-            <label><input type="radio" name="vis" /> None</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="vis" /> Poor</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="vis" /> Good</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="vis" /> Excellent</label>
-        </div>
+    <label>Visibility</label>
+    <div class="radio">
+        <label><input type="radio" name="vis" /> None</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="vis" /> Poor</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="vis" /> Good</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="vis" /> Excellent</label>
+    </div>
 
-        <label>Wind</label>
-        <input class="form-control" type="number" />
-    </form>
+    <label>Wind</label>
+    <input class="form-control" type="number" />
 </div>
 <script>
     $(document).ready(function () {
